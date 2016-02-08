@@ -167,7 +167,7 @@
     <gap:splash src="splash.jpg" gap:platform="winphone"/> 
     <!-- <gap:splash src="images/screen/splash.jpg" gap:platform="winphone" /> -->
   <!-- windows end --> 
-<splash src="splash.png" />
+<gap:splash src="splash.png" />
   <access origin="*"/>
 </widget>
 
