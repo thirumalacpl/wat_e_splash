@@ -19,7 +19,7 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
-<!-- <preference name="splashscreen" value="splash" /> -->
+
 
 
  <preference name="android-minSdkVersion" value="15" /> 
@@ -167,7 +167,8 @@
     <gap:splash src="splash.jpg" gap:platform="winphone"/> 
     <!-- <gap:splash src="images/screen/splash.jpg" gap:platform="winphone" /> -->
   <!-- windows end --> 
-<gap:splash src="splash.png" />
+  <gap:splash src="splash.png" gap:platform="winphone"/> 
+
   <access origin="*"/>
 </widget>
 
