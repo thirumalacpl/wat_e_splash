@@ -54,7 +54,7 @@
 <gap:plugin name="org.apache.cordova.network-information" source="npm" /> 
 <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
 <gap:plugin name="cordova-plugin-camera" source="npm" />
-<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/> 
+<gap:plugin name="org.apache.cordova.splashscreen" source="npm" version="2.1.0"/> 
 
 <!-- <gap:plugin name="com.devicepush.cordova-phonegap" source="npm" /> -->
 
