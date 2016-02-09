@@ -324,6 +324,8 @@ public class GCMIntentService extends GcmListenerService implements PushConstant
          */
         createActions(extras, mBuilder, resources, packageName);
 
+        notId++;
+
         mNotificationManager.notify(appName, notId, mBuilder.build());
     }
 
